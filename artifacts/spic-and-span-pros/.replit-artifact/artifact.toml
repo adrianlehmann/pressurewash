@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Spic & Span Pros Website"
+version = "1.0.0"
+id = "artifacts/spic-and-span-pros"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25210
+
+[services.development]
+run = "pnpm --filter @workspace/spic-and-span-pros run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/spic-and-span-pros", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/spic-and-span-pros/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25210"
+BASE_PATH = "/"

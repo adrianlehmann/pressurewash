@@ -1,0 +1,654 @@
+Create a premium, modern, SEO-optimized website for Spic & Span Pros Power Washing, Window & Gutter Cleaning, a family-owned exterior cleaning company serving Piscataway, New Jersey and the surrounding Central New Jersey area.
+
+The website should immediately communicate professionalism, trust, attention to detail, and stunning transformation results. Visitors should feel confident that their home will be treated with care and left looking spotless.
+
+The primary goal of the website is to generate phone calls and quote requests for residential exterior cleaning services.
+
+Business Information
+
+Business Name:
+Spic & Span Pros Power Washing, Window & Gutter Cleaning
+
+Tagline:
+Making Homes Shine Like New Since 2017
+
+Category:
+Power Washing & Exterior Cleaning
+
+Address:
+301 N Randolphville Rd Apt 73
+Piscataway, NJ 08854
+
+Phone:
+(732) 648-4094
+
+Business Hours
+
+Open 24 Hours
+
+Monday – Sunday
+
+Company Description
+
+Spic & Span Pros is a locally owned, family-operated exterior cleaning company dedicated to delivering exceptional workmanship with honesty, respect, and outstanding customer service.
+
+Since 2017, the company has helped homeowners restore and protect their properties through professional power washing, soft washing, window cleaning, gutter cleaning, and solar panel cleaning.
+
+Their mission is simple:
+
+Provide 5-star service, outstanding communication, fair pricing, and results that exceed expectations while treating every customer's home as if it were their own.
+
+About the Owner
+
+Brian Ochoa is the owner of Spic & Span Pros.
+
+A former firefighter, Brian brings the same discipline, professionalism, attention to safety, and strong work ethic to every project.
+
+Having grown up in Piscataway, he takes pride in helping homeowners throughout his community maintain beautiful homes.
+
+His philosophy is simple:
+
+Treat customers with honesty and respect while delivering exceptional quality every single time.
+
+Brand Personality
+
+The company should feel:
+
+Family Owned
+Honest
+Friendly
+Professional
+Detail Oriented
+Trustworthy
+Hard Working
+Responsive
+Knowledgeable
+Local
+Design Style
+
+Create a premium exterior cleaning website inspired by modern home service companies.
+
+The design should feel:
+
+Bright
+Clean
+Fresh
+Modern
+High-end
+
+Use:
+
+Large full-width hero photography
+Before & After image sliders
+Rounded cards
+Glassmorphism effects
+Plenty of whitespace
+Water-inspired animations
+Soft gradients
+Modern iconography
+Smooth scrolling
+Framer Motion animations
+Color Palette
+
+Primary Blue
+
+#0288D1
+
+Dark Blue
+
+#01579B
+
+Sky Blue
+
+#4FC3F7
+
+White
+
+#FFFFFF
+
+Light Gray
+
+#F6F8FA
+
+Dark Gray
+
+#2C3E50
+
+Accent Green
+
+#2E7D32
+
+Buttons
+
+Primary Blue
+
+Hover
+
+Dark Blue
+
+Typography
+
+Headings
+
+Poppins Bold
+
+Body
+
+Inter
+
+Buttons
+
+Semi Bold
+
+Website Structure
+Sticky Header
+
+Logo
+
+Navigation
+
+Home
+
+Services
+
+About
+
+Gallery
+
+Reviews
+
+FAQ
+
+Contact
+
+Right Side
+
+📞 Call Now
+
+(732) 648-4094
+
+Primary CTA
+
+Free Estimate
+
+Hero Section
+
+Large cinematic hero image showing a beautiful home being professionally power washed with dramatic before-and-after contrast.
+
+Headline
+
+Restore Your Home's Beauty with Professional Exterior Cleaning
+
+Subheadline
+
+Spic & Span Pros provides professional power washing, soft washing, gutter cleaning, window cleaning, and solar panel cleaning throughout Piscataway and surrounding communities. Family-owned, fully committed to quality, and available whenever you need us.
+
+Buttons
+
+Get Free Estimate
+
+Call Now
+
+Trust Badges
+
+✔ Family Owned
+
+✔ Serving Since 2017
+
+✔ Open 24 Hours
+
+✔ Free Estimates
+
+✔ 5-Star Customer Service
+
+Why Choose Us
+
+Headline
+
+Why Homeowners Choose Spic & Span Pros
+
+Create feature cards.
+
+Family Owned & Operated
+
+Local service built on honesty, respect, and quality workmanship.
+
+Outstanding Customer Service
+
+Friendly communication from your first call until the job is complete.
+
+Experienced Professionals
+
+Attention to detail on every project.
+
+Fair Pricing
+
+Excellent value without sacrificing quality.
+
+Flexible Scheduling
+
+We work around your schedule with minimal disruption.
+
+Satisfaction Guaranteed
+
+Our goal is complete customer satisfaction every time.
+
+Services
+
+Create premium service cards with custom icons.
+
+House Power Washing
+
+Restore siding, brick, stucco, and exterior surfaces by removing years of dirt, mildew, algae, and grime.
+
+Soft Washing
+
+Safe cleaning for delicate exterior surfaces using low-pressure cleaning techniques.
+
+Window Cleaning
+
+Crystal-clear windows inside and out.
+
+Services include:
+
+Interior Window Cleaning
+Exterior Window Cleaning
+Window Frame Cleaning
+Screen Cleaning
+Gutter Cleaning
+
+Prevent water damage with professional gutter cleaning and debris removal.
+
+Deck Cleaning
+
+Restore wood and composite decks for outdoor enjoyment.
+
+Fence Cleaning
+
+Bring fences back to life by removing dirt, algae, and weather stains.
+
+Driveway & Sidewalk Cleaning
+
+Professional concrete cleaning that dramatically improves curb appeal.
+
+Roof Cleaning
+
+Safe removal of algae, moss, and organic buildup.
+
+Solar Panel Cleaning
+
+Maximize efficiency by keeping rooftop solar panels clean.
+
+Also include:
+
+Solar Shingle Cleaning
+Graffiti Removal
+
+Professional removal from exterior surfaces.
+
+Cleaning Solutions
+
+Create icon cards highlighting common cleaning solutions.
+
+We Remove:
+
+✔ Dirt
+
+✔ Mold
+
+✔ Mildew
+
+✔ Algae
+
+✔ Moss
+
+✔ Rust Stains
+
+✔ Graffiti
+
+✔ Pollen
+
+✔ Organic Staining
+
+Before & After Gallery
+
+One of the major selling points.
+
+Create an interactive gallery featuring:
+
+House Washing
+
+Deck Cleaning
+
+Driveways
+
+Windows
+
+Stucco
+
+Fences
+
+Gutters
+
+Concrete
+
+Before & After sliders
+
+Lightbox animations
+
+Hover effects
+
+Process Section
+
+Headline
+
+Our Simple 5-Step Process
+
+Step 1
+
+Request Your Free Estimate
+
+Step 2
+
+On-Site Assessment
+
+Step 3
+
+Customized Cleaning Plan
+
+Step 4
+
+Professional Cleaning
+
+Step 5
+
+Final Walkthrough & Satisfaction Check
+
+About Section
+
+Headline
+
+Exterior Cleaning Done Right
+
+Content
+
+Since 2017, Spic & Span Pros has proudly helped homeowners throughout Central New Jersey restore the beauty of their homes through professional exterior cleaning services.
+
+As a family-owned business, we understand the importance of honesty, communication, and treating every customer's home with respect.
+
+Owner Brian Ochoa brings the discipline and professionalism developed during his years as a firefighter into every project. From the initial estimate through the final walkthrough, our team focuses on delivering exceptional workmanship while making the entire experience simple and stress-free.
+
+Whether it's removing years of mildew from your siding, restoring your deck, cleaning crystal-clear windows, or unclogging overflowing gutters, our goal is to make your home look its absolute best.
+
+Reviews
+
+Create a premium testimonial carousel.
+
+Highlight recurring themes:
+
+★★★★★
+
+Professional
+
+Friendly
+
+Reasonable Pricing
+
+Excellent Communication
+
+Amazing Results
+
+Knowledgeable
+
+Attention to Detail
+
+Reliable
+
+Use excerpts inspired by actual reviews.
+
+Examples
+
+"Our house looked brand new after years of mildew and dirt buildup. We couldn't believe the transformation."
+
+—
+
+"Brian explained every option, provided honest recommendations, and made the entire process incredibly easy."
+
+—
+
+"Our deck looks incredible. We've already scheduled gutter cleaning for next season."
+
+—
+
+"The windows are crystal clear inside and out. I didn't realize how dirty they had become until after they were cleaned."
+
+—
+
+"They arrived on time, completed everything exactly as promised, and left our property spotless."
+
+—
+
+"The price was very reasonable and the quality exceeded our expectations."
+
+Service Areas
+
+Headline
+
+Proudly Serving Piscataway & Central New Jersey
+
+Include:
+
+Piscataway
+
+Edison
+
+New Brunswick
+
+South Plainfield
+
+Highland Park
+
+Metuchen
+
+Somerset
+
+North Brunswick
+
+Bound Brook
+
+Middlesex County
+
+Google Maps integration.
+
+FAQ
+
+Include:
+
+What is the difference between power washing and soft washing?
+
+How often should I have my house washed?
+
+Do you clean interior windows?
+
+Can power washing damage my home?
+
+Do you clean gutters?
+
+Do you remove algae and moss?
+
+Do you clean solar panels?
+
+How long does a typical project take?
+
+Are estimates free?
+
+CTA Banner
+
+Background
+
+Beautiful freshly cleaned home with sunlight reflecting off crystal-clear windows.
+
+Headline
+
+Bring Your Home Back to Life
+
+Subheadline
+
+Schedule your free estimate today and discover why homeowners throughout Central New Jersey trust Spic & Span Pros.
+
+Buttons
+
+Get Free Estimate
+
+Call Now
+
+Contact Section
+
+Left
+
+Business Information
+
+Spic & Span Pros Power Washing, Window & Gutter Cleaning
+
+301 N Randolphville Rd Apt 73
+
+Piscataway, NJ 08854
+
+Phone
+
+(732) 648-4094
+
+Hours
+
+Open 24 Hours
+
+Embedded Google Map
+
+Right
+
+Estimate Form
+
+Fields
+
+Name
+
+Phone
+
+Email
+
+Service Needed
+
+Property Address
+
+Message
+
+Button
+
+Request My Free Estimate
+
+Footer
+
+Include
+
+Business Information
+
+Services
+
+Service Areas
+
+Business Hours
+
+Quick Links
+
+Privacy Policy
+
+Terms of Service
+
+Copyright
+
+Social Icons
+
+SEO Requirements
+
+Primary Keywords
+
+Power Washing Piscataway NJ
+
+Pressure Washing Piscataway
+
+House Washing Piscataway
+
+Window Cleaning Piscataway
+
+Gutter Cleaning Piscataway
+
+Power Washing Near Me
+
+Secondary Keywords
+
+Soft Washing
+
+Deck Cleaning
+
+Fence Cleaning
+
+Roof Cleaning
+
+Solar Panel Cleaning
+
+Solar Shingle Cleaning
+
+Exterior House Cleaning
+
+Graffiti Removal
+
+Pressure Washing Middlesex County
+
+Window Washing Near Me
+
+Technical Requirements
+
+Build using:
+
+React
+Next.js
+Tailwind CSS
+Framer Motion
+
+Include:
+
+Mobile-first responsive design
+Sticky "Call Now" button on mobile
+Floating "Free Estimate" button
+Google Maps integration
+Schema.org Local Business markup
+Service Schema
+FAQ Schema
+Open Graph tags
+SEO meta descriptions
+Lazy-loaded images
+WCAG accessibility compliance
+Lighthouse performance score target of 95+
+Conversion Optimization
+
+Include throughout the website:
+
+Multiple "Get Free Estimate" buttons
+Click-to-call functionality
+Before-and-after sliders
+Review highlights
+"Family-Owned Since 2017" badges
+"Open 24 Hours" badge
+FAQ section
+Service icons
+Trust indicators
+Fast quote messaging
+Interactive gallery
+
+Primary CTA:
+
+Call (732) 648-4094 Today for Your Free Exterior Cleaning Estimate
+
+Visual Inspiration
+
+The website should evoke the feeling of a freshly cleaned home on a sunny day. Use bright whites, crisp blues, sparkling glass reflections, water effects, and lush landscaping. Showcase dramatic before-and-after transformations of siding, decks, windows, fences, and driveways. Incorporate subtle water ripple animations, smooth transitions, and modern iconography to reinforce cleanliness and professionalism. The overall experience should communicate that Spic & Span Pros is the trusted local expert for restoring and maintaining the beauty of residential properties with exceptional customer service and lasting results.
