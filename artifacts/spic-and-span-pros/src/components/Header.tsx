@@ -64,7 +64,11 @@ export function Header() {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-secondary"
+                className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-300 ${
+                  isScrolled
+                    ? 'text-foreground hover:text-primary hover:bg-secondary'
+                    : 'text-white hover:text-white/80'
+                }`}
                 data-testid={`link-${link.label.toLowerCase()}`}
               >
                 {link.label}
@@ -76,7 +80,11 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-3">
             <a
               href="tel:7326484094"
-              className="flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary transition-colors"
+              className={`flex items-center gap-2 text-sm font-semibold transition-colors duration-300 ${
+                isScrolled
+                  ? 'text-foreground hover:text-primary'
+                  : 'text-white hover:text-white/80'
+              }`}
               data-testid="link-phone-desktop"
             >
               <Phone className="w-4 h-4" />
