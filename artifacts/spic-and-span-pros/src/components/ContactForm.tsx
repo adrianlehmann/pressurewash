@@ -35,11 +35,17 @@ const services = [
   'Graffiti Removal',
 ];
 
-function formatUSPhone(value: string): string {
+function formatUSPhone(value: string, isDeleting = false): string {
   const digits = value.replace(/\D/g, '').slice(0, 10);
   if (digits.length === 0) return '';
-  if (digits.length < 4) return `(${digits}`;
-  if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+  if (digits.length < 3) return `(${digits}`;
+  if (digits.length === 3) return isDeleting ? `(${digits}` : `(${digits}) `;
+  if (digits.length < 6) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+  if (digits.length === 6) {
+    return isDeleting
+      ? `(${digits.slice(0, 3)}) ${digits.slice(3)}`
+      : `(${digits.slice(0, 3)}) ${digits.slice(3)}-`;
+  }
   return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
 }
 
@@ -132,9 +138,11 @@ export function ContactForm() {
                     type="tel"
                     placeholder="(123) 456-7890"
                     {...field}
-                    onChange={(e) =>
-                      field.onChange(formatUSPhone(e.target.value))
-                    }
+                    onChange={(e) => {
+                      const next = e.target.value;
+                      const isDeleting = next.length < field.value.length;
+                      field.onChange(formatUSPhone(next, isDeleting));
+                    }}
                     data-testid="input-phone"
                   />
                 </FormControl>
