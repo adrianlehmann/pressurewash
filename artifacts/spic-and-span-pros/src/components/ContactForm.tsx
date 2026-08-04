@@ -54,7 +54,11 @@ const formSchema = z.object({
   phone: z
     .string()
     .regex(/^\(\d{3}\) \d{3}-\d{4}$/, 'Enter a valid 10-digit US phone number'),
-  email: z.string().email('Please enter a valid email address'),
+  email: z
+    .string()
+    .email('Please enter a valid email address')
+    .optional()
+    .or(z.literal('')),
   service: z.string().min(1, 'Please select a service'),
   message: z.string().optional(),
 });
@@ -156,7 +160,7 @@ export function ContactForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email *</FormLabel>
+                <FormLabel>Email</FormLabel>
                 <FormControl>
                   <Input
                     type="email"
