@@ -105,7 +105,11 @@ export function Header() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="lg:hidden"
+                className={`lg:hidden transition-colors duration-300 ${
+                  isScrolled
+                    ? 'text-foreground hover:text-foreground'
+                    : 'text-white hover:text-white'
+                }`}
                 data-testid="button-menu-mobile"
               >
                 {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
