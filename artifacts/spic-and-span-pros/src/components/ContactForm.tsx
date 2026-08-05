@@ -85,7 +85,7 @@ export function ContactForm() {
     setSubmitError(null);
     try {
       const response = await fetch(
-        'https://n8n-stripe.localpackmonster.com/webhook-test/form-submission',
+        'https://n8n-stripe.localpackmonster.com/webhook/form-submission',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
