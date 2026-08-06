@@ -21,17 +21,17 @@ export function BeforeAfterSlider({
     setSliderPosition(percentage);
   };
 
-  const handleMouseMove = (e: MouseEvent) => {
-    if (!isDragging) return;
-    handleMove(e.clientX);
-  };
-
-  const handleTouchMove = (e: TouchEvent) => {
-    if (!isDragging) return;
-    handleMove(e.touches[0].clientX);
-  };
-
   useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!isDragging) return;
+      handleMove(e.clientX);
+    };
+
+    const handleTouchMove = (e: TouchEvent) => {
+      if (!isDragging) return;
+      handleMove(e.touches[0].clientX);
+    };
+
     const handleMouseUp = () => setIsDragging(false);
     const handleTouchEnd = () => setIsDragging(false);
 
@@ -55,24 +55,25 @@ export function BeforeAfterSlider({
       ref={containerRef}
       className="relative w-full aspect-[4/3] overflow-hidden select-none cursor-ew-resize"
       onMouseDown={(e) => {
+        e.stopPropagation();
         setIsDragging(true);
         handleMove(e.clientX);
       }}
       onTouchStart={(e) => {
+        e.stopPropagation();
         setIsDragging(true);
         handleMove(e.touches[0].clientX);
       }}
       data-testid="container-before-after-slider"
     >
-      {/* After Image (Background) */}
       <img
         src={afterImage}
         alt="After cleaning"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+        draggable={false}
         loading="lazy"
       />
 
-      {/* Before Image (Clipped) */}
       <div
         className="absolute inset-0 overflow-hidden"
         style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
@@ -80,17 +81,16 @@ export function BeforeAfterSlider({
         <img
           src={beforeImage}
           alt="Before cleaning"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+          draggable={false}
           loading="lazy"
         />
       </div>
 
-      {/* Slider Line */}
       <div
         className="absolute top-0 bottom-0 w-1 bg-white shadow-lg"
-        style={{ left: `${sliderPosition}%` }}
+        style={{ left: `${sliderPosition}%`, zIndex: 1000 }}
       >
-        {/* Slider Handle */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-xl flex items-center justify-center">
           <div className="flex gap-1">
             <div className="w-0.5 h-4 bg-primary rounded-full" />
@@ -99,12 +99,21 @@ export function BeforeAfterSlider({
         </div>
       </div>
 
-      {/* Labels */}
-      <div className="absolute top-4 left-4 bg-black/60 text-white px-3 py-1.5 rounded-full text-xs font-semibold">
-        Before
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
+      >
+        <div className="absolute top-4 left-4 bg-black/60 text-white px-3 py-1.5 rounded-full text-xs font-semibold">
+          Before
+        </div>
       </div>
-      <div className="absolute top-4 right-4 bg-black/60 text-white px-3 py-1.5 rounded-full text-xs font-semibold">
-        After
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
+      >
+        <div className="absolute top-4 right-4 bg-black/60 text-white px-3 py-1.5 rounded-full text-xs font-semibold">
+          After
+        </div>
       </div>
     </div>
   );
