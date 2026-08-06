@@ -23,7 +23,7 @@ export function About() {
     <section
       id="about"
       ref={ref}
-      className="py-20 md:py-32 bg-gradient-to-b from-background to-secondary/30"
+      className="py-20 bg-gradient-to-b from-background to-secondary/30"
       data-testid="section-about"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

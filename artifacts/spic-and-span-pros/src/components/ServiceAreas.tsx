@@ -23,7 +23,7 @@ export function ServiceAreas() {
   return (
     <section
       ref={ref}
-      className="py-20 md:py-32 bg-background"
+      className="py-20 bg-background"
       data-testid="section-service-areas"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

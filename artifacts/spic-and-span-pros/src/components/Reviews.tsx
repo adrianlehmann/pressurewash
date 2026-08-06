@@ -59,7 +59,7 @@ export function Reviews() {
     <section
       id="reviews"
       ref={ref}
-      className="py-20 md:py-32 bg-gradient-to-b from-secondary/30 to-background"
+      className="py-20 bg-gradient-to-b from-secondary/30 to-background"
       data-testid="section-reviews"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

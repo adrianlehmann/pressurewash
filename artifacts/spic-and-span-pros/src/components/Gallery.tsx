@@ -32,7 +32,7 @@ export function Gallery() {
     <section
       id="gallery"
       ref={ref}
-      className="py-20 md:py-32 bg-gradient-to-b from-secondary/30 to-background"
+      className="py-20 bg-gradient-to-b from-secondary/30 to-background"
       data-testid="section-gallery"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
